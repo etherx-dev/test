@@ -1,0 +1,81 @@
+.wellLetYou {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  display: inline-block;
+  height: 23.83px;
+}
+.placeholder {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.inputContainer,
+.textField {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.inputContainer {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--light-background);
+  border: 1px solid var(--color-gainsboro-200);
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+}
+.textField {
+  position: absolute;
+  width: 100%;
+  top: 39.71px;
+  right: 0;
+  left: 0;
+  height: 50.83px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  color: var(--color-gray-100);
+}
+.learnMore {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.buttons {
+  position: absolute;
+  top: 39.71px;
+  right: 0;
+  border-radius: 0 var(--br-xs) var(--br-xs) 0;
+  background-color: var(--color-gray-400);
+  width: 173.7px;
+  height: 50.83px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.textareastandardFormgroup {
+  width: 255px;
+  position: absolute;
+  top: 21.93px;
+  left: 42.84px;
+}
+.wellLetYouKnowWhenThingsParent {
+  position: absolute;
+  width: calc(100% - 967.6px);
+  top: 575.07px;
+  right: 490.44px;
+  left: 477.16px;
+  height: 108.93px;
+  text-align: center;
+  font-size: var(--link-size);
+  color: var(--light-background);
+  font-family: var(--font-poppins);
+}

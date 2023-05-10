@@ -1,0 +1,29 @@
+.removebgPreview1Icon {
+  position: relative;
+  width: 330px;
+  height: 146px;
+  object-fit: cover;
+}
+.home {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.link,
+.removebgPreview1Parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link {
+  padding: var(--padding-3xs);
+}
+.removebgPreview1Parent {
+  gap: var(--gap-12xl);
+  text-align: center;
+  font-size: var(--link-size);
+  color: var(--light-background);
+  font-family: var(--link);
+}

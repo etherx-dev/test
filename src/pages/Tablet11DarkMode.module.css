@@ -1,0 +1,235 @@
+.workAtThe {
+  margin: 0;
+}
+.workAtTheContainer {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 88px;
+}
+.headline {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.mostCalendarsAreContainer {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+.subHeading,
+.text {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.subHeading {
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-archivo-black);
+}
+.text {
+  position: absolute;
+  height: 28.27%;
+  width: 189.33%;
+  top: 18.92%;
+  right: -44.6%;
+  bottom: 52.81%;
+  left: -44.72%;
+  flex-direction: column;
+  padding: var(--padding-31xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+}
+.login {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+.button {
+  box-shadow: var(--shadow);
+  border: 1px solid var(--light-background);
+  box-sizing: border-box;
+  height: 52px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-17xl);
+  align-items: center;
+  justify-content: flex-start;
+}
+.bxbxMenuAltRightIcon {
+  position: relative;
+  width: 66px;
+  height: 53px;
+}
+.buttonParent {
+  position: absolute;
+  top: 28px;
+  right: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.mobileFrame,
+.mobileNavbar {
+  align-self: stretch;
+  overflow: hidden;
+}
+.mobileNavbar {
+  position: relative;
+  height: 107px;
+  flex-shrink: 0;
+}
+.mobileFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.workAtTheContainer1 {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 62px;
+}
+.subHeading1,
+.textContent {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.subHeading1 {
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-xl);
+}
+.textContent {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  text-align: center;
+  font-size: var(--font-size-33xl);
+  font-family: var(--font-archivo-black);
+}
+.button1 {
+  background-color: var(--primary);
+  box-shadow: var(--shadow);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+}
+.button1,
+.button2,
+.buttons {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button2 {
+  box-shadow: var(--shadow);
+  border: 1px solid var(--light-background);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+}
+.buttons {
+  flex-direction: column;
+  gap: var(--gap-2xl);
+}
+.boardsIcon,
+.chatBotIcon,
+.dashboard1Icon {
+  position: absolute;
+  top: calc(50% - 217.5px);
+  left: calc(50% - 207.58px);
+  width: 374.55px;
+  height: 283.25px;
+  object-fit: cover;
+}
+.boardsIcon,
+.chatBotIcon {
+  top: calc(50% - 76.95px);
+  left: calc(50% - 20.28px);
+  width: 383.84px;
+  height: 292.32px;
+}
+.boardsIcon {
+  top: calc(50% - 62.98px);
+  left: calc(50% - 395.3px);
+  width: 374.85px;
+  height: 280.48px;
+}
+.screens1 {
+  position: absolute;
+  top: 0;
+  left: 7.09px;
+  width: 822.81px;
+  height: 435px;
+  overflow: hidden;
+}
+.gradient {
+  position: absolute;
+  height: 72.41%;
+  width: 100%;
+  top: 27.59%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(30, 30, 30, 0), #0e0e0e);
+}
+.screens {
+  align-self: stretch;
+  position: relative;
+  height: 453px;
+}
+.hero,
+.mobileHeader05 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hero {
+  align-self: stretch;
+  background-color: var(--dark-background);
+  align-items: center;
+  gap: var(--gap-38xl);
+}
+.mobileHeader05 {
+  position: absolute;
+  height: 88.85%;
+  width: 100.36%;
+  top: -1.44%;
+  right: -1.8%;
+  bottom: 12.59%;
+  left: 1.44%;
+  background-color: var(--light-background);
+  overflow: hidden;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--button-size);
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 130px;
+  width: 559px;
+  height: 268px;
+  object-fit: cover;
+}
+.tablet11Darkmode {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 1390px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--headline-size);
+  color: var(--light-background);
+  font-family: var(--link);
+}

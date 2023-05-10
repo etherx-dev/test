@@ -1,0 +1,56 @@
+.contactUsFor {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 19px;
+}
+.stayTunedFor {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.baseforms01Input01Small {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+}
+.baseforms02Textarea01Sm {
+  align-self: stretch;
+}
+.basecards,
+.basecardsbody {
+  align-self: stretch;
+  background-color: var(--light-background);
+}
+.basecardsbody {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.basecards {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--components-card-border);
+  overflow: hidden;
+}
+.basecards,
+.cards,
+.contactUsForInquiriesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cards {
+  width: 292px;
+  font-size: var(--font-size-smi);
+  color: var(--color-dimgray);
+}
+.contactUsForInquiriesParent {
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--color-gray-300);
+  font-family: var(--link);
+}

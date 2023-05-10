@@ -1,0 +1,236 @@
+.groupChild {
+  position: absolute;
+  top: 1074px;
+  left: 72px;
+  border-radius: var(--br-26xl);
+  width: 1541.83px;
+  height: 335.19px;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 33px;
+  background: conic-gradient(
+    from 137.47deg at 50% 50%,
+    #c5ec1c 0deg,
+    #a6c812 189.38deg,
+    #aecf1d 236.36deg,
+    #c5ec1c 360deg,
+    #a6c812 549.38deg
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1492px;
+  height: 1101px;
+  mix-blend-mode: darken;
+}
+.logoIcon,
+.logoIcon1 {
+  position: absolute;
+  top: 11.91px;
+  left: 72px;
+  width: 403.59px;
+  height: 60.37px;
+  object-fit: cover;
+}
+.logoIcon1 {
+  left: 566.05px;
+}
+.beyondUsingStart {
+  margin: 0;
+}
+.beyondUsingStartContainer {
+  top: 210px;
+  left: 151px;
+  font-size: var(--font-size-33xl);
+  line-height: 67px;
+  font-family: var(--font-overpass);
+  width: 664.14px;
+  height: 106.44px;
+}
+.beyondUsingStartContainer,
+.uniteForA,
+.wellLetYou {
+  position: absolute;
+  display: inline-block;
+}
+.uniteForA {
+  top: 316px;
+  left: 210px;
+  font-size: var(--font-size-19xl);
+  line-height: 67px;
+  font-weight: 600;
+  font-family: var(--font-overpass);
+  width: 545.62px;
+  height: 53.22px;
+}
+.wellLetYou {
+  width: calc(100% - 173.7px);
+  top: 0;
+  left: 197.3px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  height: 23.83px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.placeholder {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.inputContainer,
+.textField {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.inputContainer {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--light-background);
+  border: 1px solid var(--color-gainsboro-200);
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+}
+.textField {
+  position: absolute;
+  width: calc(100% - 173.7px);
+  top: 39.71px;
+  right: -23.6px;
+  left: 197.3px;
+  height: 50.83px;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+  text-align: left;
+  color: var(--color-gray-100);
+}
+.learnMore {
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.buttons {
+  position: absolute;
+  top: 39.71px;
+  right: 23.6px;
+  border-radius: 0 var(--br-xs) var(--br-xs) 0;
+  background-color: var(--color-gray-400);
+  width: 173.7px;
+  height: 50.83px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.wellLetYouKnowWhenThingsParent {
+  position: absolute;
+  width: calc(100% - 1344.53px);
+  top: 6px;
+  right: 37.7px;
+  left: 1306.82px;
+  height: 90.55px;
+  font-size: var(--link-size);
+  color: var(--light-background);
+}
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 122.87px;
+  height: 35.11px;
+}
+.enquiries {
+  position: absolute;
+  top: 7.06px;
+  left: 27.94px;
+}
+.rectangleParent {
+  position: relative;
+  width: 122.87px;
+  height: 35.11px;
+}
+.groupWrapper,
+.privacyPolicy {
+  position: absolute;
+  text-align: left;
+}
+.groupWrapper {
+  top: 37.33px;
+  left: 1306.82px;
+  width: 125.55px;
+  height: 27.89px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--light-background);
+}
+.privacyPolicy {
+  top: 43.69px;
+  left: 1172.97px;
+  display: inline-block;
+  width: 97.07px;
+  height: 16.68px;
+}
+.emojiEvergreenTree,
+.emojiEvergreenTree1,
+.illustrationMoneyTree {
+  position: absolute;
+  height: 8.29%;
+  width: 4.02%;
+  top: 40.17%;
+  right: 44.77%;
+  bottom: 51.54%;
+  left: 51.21%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.emojiEvergreenTree1,
+.illustrationMoneyTree {
+  right: 87.37%;
+  left: 8.61%;
+}
+.illustrationMoneyTree {
+  height: 15.93%;
+  width: 13.05%;
+  top: 39.1%;
+  right: 62.17%;
+  bottom: 44.97%;
+  left: 24.78%;
+}
+.desktop1440Lightmode,
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: -72px;
+  width: 1541.83px;
+  height: 1409.19px;
+}
+.desktop1440Lightmode {
+  left: 0;
+  background-color: var(--light-background);
+  width: 834px;
+  height: 1390px;
+  overflow: hidden;
+}
+.tablet11Lightmode {
+  position: relative;
+  background-color: var(--color-yellow);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 1390px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

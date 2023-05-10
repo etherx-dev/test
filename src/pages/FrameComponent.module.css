@@ -1,0 +1,73 @@
+.groupIcon {
+  position: relative;
+  width: 40.23px;
+  height: 39.71px;
+}
+.groupIcon1,
+.groupIcon2 {
+  position: relative;
+  width: 145.22px;
+  height: 121.07px;
+}
+.groupIcon2 {
+  width: 11.94px;
+  height: 11.94px;
+}
+.groupIcon3,
+.groupIcon4 {
+  position: relative;
+  width: 107.9px;
+  height: 121.91px;
+}
+.groupIcon4 {
+  width: 32.18px;
+  height: 31.14px;
+}
+.groupIcon5,
+.groupIcon6 {
+  position: relative;
+  width: 466.23px;
+  height: 225.27px;
+}
+.groupIcon6 {
+  width: 300.19px;
+  height: 281.48px;
+}
+.groupIcon7,
+.groupIcon8 {
+  position: relative;
+  width: 10.52px;
+  height: 10.38px;
+}
+.groupIcon8 {
+  width: 96.93px;
+  height: 106.48px;
+}
+.groupIcon10,
+.groupIcon9 {
+  position: relative;
+  width: 16.61px;
+  height: 16.74px;
+}
+.groupIcon10 {
+  width: 82.98px;
+  height: 104.94px;
+}
+.groupIcon11,
+.groupIcon12 {
+  position: relative;
+  width: 41px;
+  height: 39.58px;
+}
+.groupIcon12 {
+  width: 8.3px;
+  height: 8.05px;
+}
+.groupParent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}

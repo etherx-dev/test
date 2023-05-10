@@ -1,0 +1,55 @@
+.listIcon {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.logoIcon {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  width: 281.52px;
+  height: 46px;
+  object-fit: cover;
+}
+.header1 {
+  position: relative;
+  background-color: var(--color-yellow);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+  width: 320px;
+  height: 52px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerChild {
+  position: relative;
+  border-top: 0.7px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  width: 320.7px;
+  height: 0.7px;
+}
+.appLandingPage,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer {
+  width: 320px;
+  padding: 0 var(--padding-sm) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.appLandingPage {
+  position: relative;
+  background-color: var(--light-background);
+  width: 100%;
+  overflow: hidden;
+}

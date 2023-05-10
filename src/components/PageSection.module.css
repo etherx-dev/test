@@ -1,0 +1,280 @@
+.pages {
+  width: 100%;
+  top: 0;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  font-weight: 900;
+  display: inline-block;
+}
+.home,
+.pages,
+.product {
+  position: absolute;
+  left: 0;
+}
+.home {
+  width: 75.38%;
+  top: 27.6%;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+}
+.product {
+  width: 98.46%;
+  top: 47.51%;
+}
+.about,
+.pricing,
+.product {
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+}
+.pricing {
+  position: absolute;
+  width: 87.69%;
+  top: 67.42%;
+  left: 0;
+}
+.about {
+  width: 76.92%;
+  top: 87.33%;
+}
+.about,
+.pagesParent,
+.support {
+  position: absolute;
+  left: 0;
+}
+.pagesParent {
+  height: 99.55%;
+  width: 18.27%;
+  top: 0.31%;
+  right: 81.73%;
+  bottom: 0.14%;
+}
+.support {
+  width: 67.46%;
+  top: 0;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  font-weight: 900;
+  display: inline-block;
+}
+.account,
+.contactUs,
+.feedback,
+.supportCenter {
+  position: absolute;
+  width: 54.76%;
+  top: 27.6%;
+  left: 0;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+}
+.contactUs,
+.feedback,
+.supportCenter {
+  width: 100%;
+  top: 47.51%;
+}
+.contactUs,
+.feedback {
+  width: 64.29%;
+  top: 67.42%;
+}
+.contactUs {
+  width: 72.22%;
+  top: 87.33%;
+}
+.supportParent {
+  position: absolute;
+  height: 99.55%;
+  width: 33.43%;
+  top: 0.45%;
+  right: 38.94%;
+  bottom: 0;
+  left: 27.63%;
+}
+.claims,
+.complaints,
+.help,
+.learn,
+.resources {
+  position: absolute;
+  left: 1.75%;
+  display: inline-block;
+}
+.resources {
+  width: 98.25%;
+  top: 0;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  font-weight: 900;
+}
+.claims,
+.complaints,
+.help,
+.learn {
+  width: 32.75%;
+  top: 27.48%;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.claims,
+.complaints,
+.learn {
+  width: 40.72%;
+  top: 47.3%;
+}
+.claims,
+.complaints {
+  width: 51.34%;
+  top: 67.12%;
+}
+.complaints {
+  width: 84.98%;
+  top: 86.94%;
+  left: 0;
+  letter-spacing: 0.1px;
+  line-height: 29px;
+}
+.resourcesParent {
+  position: absolute;
+  height: 100%;
+  width: 29.51%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 70.49%;
+}
+.groupContainer {
+  position: relative;
+  width: 387.31px;
+  height: 222px;
+}
+.antDesigntwitterOutlinedIcon {
+  position: relative;
+  width: 40.99px;
+  height: 40.99px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.groupChild,
+.socialMedia {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.socialMedia {
+  width: 184.02px;
+  height: 38.51px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.groupChild {
+  border-radius: var(--br-4xl);
+  background-color: var(--color-greenyellow);
+  width: 206.67px;
+  height: 57.29px;
+}
+.getStarted {
+  position: absolute;
+  top: 17.66px;
+  left: 39.83px;
+  line-height: 25px;
+  font-weight: 900;
+  display: inline-block;
+  width: 115.18px;
+  height: 23.49px;
+}
+.groupWrapper,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 206.67px;
+  height: 57.29px;
+}
+.groupWrapper {
+  top: 115.57px;
+  text-align: center;
+}
+.subscribeToOur,
+.yourEmail {
+  position: absolute;
+  letter-spacing: 0.1px;
+}
+.subscribeToOur {
+  height: 19.57%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  line-height: 36px;
+  font-weight: 900;
+  color: var(--light-background);
+  display: inline-block;
+}
+.yourEmail {
+  top: 21px;
+  left: 25px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.groupDiv,
+.input {
+  position: absolute;
+  left: 0;
+}
+.input {
+  top: 45.86px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-background);
+  border: 2px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 269.1px;
+  height: 58.25px;
+  overflow: hidden;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+}
+.groupDiv {
+  top: 32.51px;
+  width: 314.31px;
+  height: 172.86px;
+}
+.socialMediaParent {
+  position: relative;
+  width: 314.31px;
+  height: 205.37px;
+  color: var(--color-gray-400);
+}
+.groupParent {
+  position: absolute;
+  top: 1127px;
+  left: 107px;
+  width: 1128.02px;
+  height: 199.36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-85xl);
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--light-background);
+  font-family: var(--font-poppins);
+}

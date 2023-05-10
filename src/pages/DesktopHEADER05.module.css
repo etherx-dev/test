@@ -1,0 +1,108 @@
+.menu {
+  position: absolute;
+  top: calc(50% - 68.5px);
+  left: calc(50% - 579px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 25px;
+}
+.button,
+.text {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  position: absolute;
+  top: calc(50% - 26.5px);
+  right: 39px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--light-background);
+  box-sizing: border-box;
+  height: 52px;
+  padding: var(--padding-xl) var(--padding-17xl);
+}
+.navbar {
+  position: relative;
+  width: 1097px;
+  height: 119px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.workAtThe {
+  margin: 0;
+}
+.mostCalendarsAreContainer,
+.workAtTheContainer {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 88px;
+}
+.mostCalendarsAreContainer {
+  line-height: 30px;
+}
+.subHeading,
+.text1 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.subHeading {
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-archivo-black);
+}
+.text1 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-31xl) 0;
+  gap: var(--gap-mid);
+  text-align: center;
+  font-size: var(--headline-size);
+}
+.button1 {
+  background-color: var(--primary);
+  box-shadow: var(--shadow);
+  padding: var(--padding-3xs) var(--padding-11xl);
+}
+.button1,
+.button2,
+.buttons,
+.desktopHeader05 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button2 {
+  box-shadow: var(--shadow);
+  border: 1px solid var(--light-background);
+  padding: var(--padding-3xs) var(--padding-11xl);
+}
+.buttons,
+.desktopHeader05 {
+  gap: var(--gap-16xl);
+}
+.desktopHeader05 {
+  position: relative;
+  background-color: var(--dark-background);
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--button-size);
+  color: var(--light-background);
+  font-family: var(--link);
+}

@@ -1,0 +1,67 @@
+.tablet11Darkmode {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+}
+.workAtThe {
+  margin: 0;
+}
+.workAtTheContainer {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 88px;
+}
+.headline {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: flex-start;
+}
+.mostCalendarsAreContainer {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+.subHeading,
+.text {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.subHeading {
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-archivo-black);
+}
+.text {
+  position: absolute;
+  height: 38.38%;
+  width: 109.65%;
+  top: 19.14%;
+  right: -4.79%;
+  bottom: 42.48%;
+  left: -4.86%;
+  flex-direction: column;
+  padding: var(--padding-31xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-mid);
+}
+.desktop1440Darkmode {
+  position: relative;
+  background-color: var(--light-background);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--headline-size);
+  color: var(--light-background);
+  font-family: var(--link);
+}

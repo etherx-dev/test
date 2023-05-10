@@ -1,0 +1,105 @@
+.frameChild {
+  position: relative;
+  width: 158.47px;
+  height: 36.57px;
+}
+.footerInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company {
+  font-size: var(--font-size-xl);
+  line-height: 27px;
+  font-weight: 500;
+}
+.aboutUs,
+.company {
+  align-self: stretch;
+  position: relative;
+}
+.companyParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.companyParent,
+.footer,
+.frameParent,
+.moreParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moreParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.footer,
+.frameParent {
+  flex-direction: row;
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.footer {
+  position: absolute;
+  top: 915px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1440px;
+  padding: var(--padding-21xl) var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color: #333;
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--light-background);
+  font-family: var(--link);
+}
+@media screen and (max-width: 1200px) {
+  .footerInner {
+    width: 329px;
+  }
+  .footer {
+    padding: var(--padding-5xl) var(--padding-xl);
+    box-sizing: border-box;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-color: #333;
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 960px) {
+  .frameParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footer {
+    flex-direction: column;
+    padding: var(--padding-21xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .companyParent,
+  .moreParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameParent {
+    flex-direction: column;
+    gap: var(--gap-21xl);
+  }
+  .footer {
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}

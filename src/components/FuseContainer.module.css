@@ -1,0 +1,93 @@
+.hereAreThe,
+.whatIsFuse {
+  position: absolute;
+  left: 0;
+  line-height: 19px;
+}
+.whatIsFuse {
+  top: 0;
+  letter-spacing: -0.01em;
+}
+.hereAreThe {
+  top: 21px;
+  font-size: var(--font-size-smi);
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 285.35px;
+}
+.whatIsFuseParent {
+  position: relative;
+  width: 285.35px;
+  height: 40px;
+}
+.whyDigicareInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--link-size);
+}
+.text {
+  position: relative;
+  line-height: 20px;
+}
+.buttons {
+  background-color: var(--color-gray-300);
+  width: 78px;
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-xs);
+  box-sizing: border-box;
+  justify-content: center;
+  color: var(--light-background);
+}
+.buttonGroup,
+.buttons,
+.buttons1 {
+  display: flex;
+  align-items: center;
+}
+.buttons1 {
+  background-color: var(--color-whitesmoke);
+  width: 107px;
+  flex-direction: column;
+  padding: var(--padding-7xs) var(--padding-xs);
+  box-sizing: border-box;
+  justify-content: center;
+}
+.buttonGroup {
+  border-radius: var(--br-9xs);
+  width: 292px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+}
+.frameChild {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.weWillMake {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  width: 213px;
+  flex-shrink: 0;
+}
+.groupParent,
+.whyDigicare {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  color: var(--color-dimgray);
+}
+.whyDigicare {
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-sm);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-gray-300);
+  font-family: var(--link);
+}

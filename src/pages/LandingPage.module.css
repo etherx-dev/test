@@ -1,0 +1,141 @@
+.landingPageChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: conic-gradient(
+    from 137.47deg at 50% 50%,
+    #e0ff01 0deg,
+    #a6c812 189.38deg,
+    #aecf1d 236.36deg,
+    #e0ff01 360deg,
+    #a6c812 549.38deg
+  );
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1461px;
+  height: 915px;
+  mix-blend-mode: darken;
+}
+.logoIcon,
+.logoIcon1 {
+  position: absolute;
+  top: 15px;
+  left: -32px;
+  width: 395px;
+  height: 76px;
+  object-fit: cover;
+}
+.logoIcon1 {
+  left: 522px;
+}
+.wellLetYou {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  display: inline-block;
+}
+.placeholder {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.inputContainer,
+.textField {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.inputContainer {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--light-background);
+  border: 1px solid var(--color-gainsboro-200);
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+}
+.textField {
+  width: 100%;
+  left: 0;
+  height: 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--color-gray-100);
+}
+.buttons,
+.textField {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+.wellLetYouKnowWhenThingsParent {
+  position: absolute;
+  width: calc(100% - 870px);
+  top: 724px;
+  right: 435px;
+  left: 435px;
+  height: 114px;
+}
+.beyondUsingStart {
+  margin: 0;
+}
+.beyondUsingStartContainer,
+.uniteForA {
+  position: absolute;
+  top: 269.91px;
+  left: 395px;
+  font-size: var(--font-size-33xl);
+  line-height: 67px;
+  font-family: var(--font-overpass);
+  color: var(--color-black);
+}
+.uniteForA {
+  top: 343.75px;
+  left: 452.5px;
+  font-size: var(--font-size-19xl);
+  font-weight: 600;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-400);
+  width: 122.87px;
+  height: 35.11px;
+}
+.enquiries {
+  position: absolute;
+  top: 7.06px;
+  left: 27.94px;
+}
+.rectangleParent {
+  position: relative;
+  width: 122.87px;
+  height: 35.11px;
+}
+.landingPageInner {
+  position: absolute;
+  top: 47px;
+  left: 1247px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.landingPage {
+  position: relative;
+  background-color: var(--light-background);
+  width: 100%;
+  height: 2248px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--light-background);
+  font-family: var(--font-poppins);
+}
